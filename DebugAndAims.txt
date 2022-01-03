@@ -1,0 +1,32 @@
+Current Aim: Make a graph tool for 2D csv files (Only type in once I started work on graphing)
+    -Done (ish)
+
+    Make columns to graph selectable
+    -Done
+
+    Add just points to graphing, no line inbetween
+    -Done
+
+    Show the mean of a selected column
+
+A sort of Debug log: (brackets means I went back after to put in method, based on memory and could be false)
+    Problem: tkinter text boxes automatically create a new line at the end of the text box and I can't figure out how to get rid of it yet
+    Solved
+
+    Problem: global variables stay the same even if the displayed file changes
+    Solved (declare global in function)
+
+    Problem: add column is a bit glitchy
+    Solved
+
+    Problem: New values disappear after adding or removing a line
+    Solved (needed to save before doing so)
+
+    Problem: A list index is out of range when saving the 2d coordinate lists
+    -Problem with the amount of spaces added when creating a new column
+    -Only two spaces created
+
+    Solved: python ranges don't include the last value
+
+    Problem: Loading Broken
+    Solved: had a value that should've been true as false (saying we didn't have the file type and name when we did)
